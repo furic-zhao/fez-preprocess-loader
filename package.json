@@ -1,0 +1,38 @@
+{
+  "name": "fez-preprocess-loader",
+  "version": "1.0.0",
+  "description": "去除webpack打包由特殊注释标记的代码块",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furic-zhao/fez-preprocess-loader.git"
+  },
+  "keywords": [
+    "fez",
+    "preprocess-loader",
+    "mock",
+    "strip-block"
+  ],
+  "author": "furic-zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furic-zhao/fez-preprocess-loader/issues"
+  },
+  "homepage": "https://github.com/furic-zhao/fez-preprocess-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0"
+  }
+}
