@@ -1,23 +1,6 @@
 {
-    "compact": false,
     "presets": [
-        ["env",
-        {
-            "targets":
-            {
-                "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
-            }
-        }],
-        "stage-2"
+        "es2015-loose", "stage-0"
     ],
-    "plugins": [
-        "transform-object-assign", ["transform-es2015-classes",
-        { //转换es6 class插件
-            "loose": false
-        }],
-        ["transform-es2015-modules-commonjs",
-        { //转换es6 module插件
-            "loose": false
-        }]
-    ]
+    "plugins": ["add-module-exports"]
 }
