@@ -1,6 +1,6 @@
 {
   "name": "fez-preprocess-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "去除webpack打包由特殊注释标记的代码块",
   "main": "lib/index.js",
   "scripts": {
