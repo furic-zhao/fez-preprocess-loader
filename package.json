@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/furic-zhao/fez-preprocess-loader#readme",
   "dependencies": {
-    "loader-utils": "^1.1.0"
+    "loader-utils": "^1.2.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
